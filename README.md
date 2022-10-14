@@ -8,4 +8,4 @@ https://drive.google.com/drive/folders/16d7Fjzd-IMdiwN6BDfn7nfHov2fIy0Vj?usp=sha
 
 # **Contributors**
 1. [Faiyaj Bin Amin](https://github.com/FaiyajAmin)
-2. [Tahmid Hasan Fuad](https://github.com/ffuad)
+2. [Md. Tahmid Hasan Fuad](https://github.com/ffuad)
