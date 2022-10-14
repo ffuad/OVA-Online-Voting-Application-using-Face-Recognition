@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreatePoll"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="Create New Poll"-->
+<!--        android:textAlignment="center" -->
+<!--        android:textStyle="bold"-->
+<!--        android:fontFamily="sans-serif-condensed-medium"-->
+<!--        android:textSize="25sp"-->
+<!--        />-->
+
+    <EditText
+        android:id="@+id/EnterPollNameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Poll Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/CreatePollButtonID"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Create Poll"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+
+</LinearLayout>

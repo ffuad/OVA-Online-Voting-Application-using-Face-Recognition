@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VotingApp</string>
+    <string name="input_admin_id">Input Admin Id</string>
+    <string name="create_poll">Create Poll</string>
+
+    <string name="Yes">Yes</string>
+    <string name="Discard">Discard</string>
+</resources>

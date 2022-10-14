@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreatePollCandidate"
+    android:layout_weight="9"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+
+    <EditText
+        android:id="@+id/EnterCandidateNameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Candidate Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_weight="1"/>
+
+
+
+    <ImageView
+        android:id="@+id/CandidateLogoImageID"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_below="@id/EnterCandidateNameID"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/ChooseCandidateLogoforPollID"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/CandidateLogoImageID"
+        android:layout_below="@+id/EnterCandidateNameID"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="35dp"
+        android:text="Choose Candidate Logo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/CreateandSaveCandidateID"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/CandidateLogoImageID"
+        android:layout_below="@+id/CandidateLogoImageID"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="90dp"
+        android:text="Create Candidate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_weight="1"
+        />
+
+
+</RelativeLayout>

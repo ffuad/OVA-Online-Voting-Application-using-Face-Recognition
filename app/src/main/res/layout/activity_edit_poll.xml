@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".EditPoll"
+    android:padding="30dp"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/PollNameonEditPollID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:hint="Poll Name"
+        />
+
+    <Switch
+        android:id="@+id/switchID"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poll State On/Off"
+        />
+
+    <Button
+        android:id="@+id/CreateNewVoterID"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:text="Create New Voter"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/EditVoterListID"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:text="Edit Voter List"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/CreateNewCandidateID"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:text="Create New Candidate"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/EditCandidateListID"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:text="Edit Candidates List"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

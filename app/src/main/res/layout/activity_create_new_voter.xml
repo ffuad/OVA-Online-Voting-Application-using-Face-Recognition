@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateNewVoter"
+    android:layout_weight="9"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+
+    <EditText
+        android:id="@+id/EnterVoterNameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Voter Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_weight="1"/>
+    <EditText
+        android:id="@+id/EnterVoterEmailID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EnterVoterNameID"
+        android:layout_marginTop="10dp"
+        android:hint="Voter Email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/FrontImageViewID"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_below="@id/EnterVoterEmailID"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/ChooseFrontImageID"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/FrontImageViewID"
+        android:layout_below="@+id/EnterVoterEmailID"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="35dp"
+        android:text="Choose Front Image"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_weight="1"
+        />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/RightImageViewID"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_below="@id/FrontImageViewID"-->
+<!--        android:src="@mipmap/ic_launcher"-->
+<!--        android:layout_weight="1"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/ChooseRightImageID"-->
+<!--        style="@style/Base.Widget.AppCompat.Button.Colored"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_toEndOf="@+id/RightImageViewID"-->
+<!--        android:layout_below="@+id/ChooseFrontImageID"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:layout_marginStart="35dp"-->
+<!--        android:text="Choose Right Image"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+<!--        android:layout_weight="1"-->
+<!--        />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/LeftImageViewID"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:src="@mipmap/ic_launcher"-->
+<!--        android:layout_below="@+id/RightImageViewID"-->
+<!--        android:layout_weight="1"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/ChooseLeftImageID"-->
+<!--        style="@style/Base.Widget.AppCompat.Button.Colored"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_toEndOf="@+id/LeftImageViewID"-->
+<!--        android:layout_below="@+id/ChooseRightImageID"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:layout_marginStart="35dp"-->
+<!--        android:text="Choose Left Image"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+<!--        android:layout_weight="1"-->
+<!--        />-->
+
+    <Button
+        android:id="@+id/CreateNewVoterButtonID"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginStart="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="90dp"
+        android:text="Create Voter"
+        android:layout_below="@id/FrontImageViewID"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_weight="1"
+        />
+
+
+</RelativeLayout>
